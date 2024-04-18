@@ -13,6 +13,7 @@ class NotesViewBobdy extends StatelessWidget {
       child: Column(
         children: [
           CustomAppBar(),
+          NotesItem(),
 
         ],
       ),
@@ -32,16 +33,29 @@ class NotesItem extends StatelessWidget {
         color: Colors.yellow,
         borderRadius: BorderRadius.circular(16),
       ),
-      child: Column(
+      child: Column(crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           ListTile(
             title: const Text(
               'Fltter Tips',
+              style: TextStyle(
+                color: Colors.black,
+              ),
             ),
-            subtitle: const Text('Build Your Career With Hossam Shaker'
+            subtitle: const Text('Build Your Career With Hossam Shaker',
+              style: TextStyle(
+                color: Colors.black,
+                ),
             ),
-            trailing: IconButton(onPressed: (){}, icon: const Icon(Icons.delete),),
+            trailing: IconButton(onPressed: (){}, icon: const Icon(Icons.delete,
+            color: Colors.black,
+            ),
+            ),
           ),
+          Text('May 20-20-2022',
+          style: TextStyle(
+            color: Colors.black,
+          ),),
         ],
       ),
       

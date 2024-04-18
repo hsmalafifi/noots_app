@@ -2,7 +2,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:noot_app/views/Widgets/Custom_icon.dart';
-
 class CustomAppBar extends StatelessWidget {
   const CustomAppBar({super.key});
 
@@ -18,7 +17,7 @@ class CustomAppBar extends StatelessWidget {
         ),
         ),
         Spacer(),
-        CustonearchIcon(),
+        CustomsearchIcon(),
 
       ],
     );
