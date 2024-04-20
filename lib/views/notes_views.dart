@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:noot_app/views/Widgets/add_note_bottom_sheet.dart';
+import 'package:noot_app/views/Widgets/add_note_bootom_sheet.dart';
 
 import 'Widgets/Notes_view_body.dart';
 
