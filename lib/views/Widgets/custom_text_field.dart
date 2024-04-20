@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:noot_app/views/Widgets/constant.dart';
 
 class CustomTextField extends StatelessWidget {
-  const CustomTextField(String s, {super.key, required this.hint,  this.Maxlines =1});
+  const CustomTextField(s, {super.key, required this.hint,  this.Maxlines =1});
 
   final String hint;
   final int Maxlines ;
@@ -15,7 +15,6 @@ class CustomTextField extends StatelessWidget {
       cursorColor: kprimarycolor,
       decoration: InputDecoration(
         hintText: hint,
-        hintMaxLines: Maxlines,
         hintStyle: const TextStyle(
           color: kprimarycolor,
           
